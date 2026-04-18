@@ -1,0 +1,41 @@
+local auto_move = false
+local DIK_MOUSE_4 = 340
+
+local defaults = {
+    ["activate_key"] = DIK_MOUSE_4
+}
+
+local function get_config(key)
+    if ui_mcm then
+        return ui_mcm.get("auto_move/" .. key)
+    end
+    return defaults[key]
+end
+
+function on_key_press(dik)
+    local activate_key = get_config("activate_key")
+    local forward_key = bind_to_dik(key_bindings.kFWD)
+    local backward_key = bind_to_dik(key_bindings.kBACK)
+
+    if (dik == activate_key) then
+        auto_move = not auto_move
+    end
+
+    if (dik == backward_key or dik == forward_key) then
+        if auto_move then
+            auto_move = false
+        end
+    end
+end
+
+function actor_on_update()
+    if auto_move then
+        local forward_key = bind_to_dik(key_bindings.kFWD)
+        level.hold_action(forward_key)
+    end
+end
+
+function on_game_start()
+    RegisterScriptCallback("on_key_press", on_key_press)
+    RegisterScriptCallback("actor_on_update", actor_on_update)
+end

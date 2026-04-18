@@ -1,0 +1,14 @@
+local DIK_MOUSE_4 = 340
+
+function on_mcm_load()
+    return {
+        id = "auto_move",
+        sh = true,
+        gr = {{
+            id = "activate_key",
+            type = "key_bind",
+            val = 2,
+            def = DIK_MOUSE_4
+        }}
+    }
+end

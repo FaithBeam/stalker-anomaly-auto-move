@@ -1,0 +1,11 @@
+<string_table>
+    <string id="ui_mcm_menu_auto_move">
+        <text>Auto Move</text>
+    </string>
+    <string id="ui_mcm_auto_move_activate_key">
+        <text>Auto Move - Activate Key</text>
+    </string>
+    <string id="ui_mcm_auto_move_activate_key_desc">
+        <text>The key that toggles automatic forward movement.</text>
+    </string>
+</string_table>
