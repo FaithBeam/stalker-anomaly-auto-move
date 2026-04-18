@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fomod>
+    <Name>Auto Move</Name>
+    <Author>FaithBeam</Author>
+    <Version>1.0.0</Version>
+    <Description>Press a key to toggle automatic forward movement.</Description>
+    <Website>https://github.com/FaithBeam/stalker-anomaly-auto-move</Website>
+</fomod>
