@@ -2,6 +2,8 @@ Auto move by pressing a hotkey for Stalker Anomaly. Compatible with GAMMA. Confi
 
 Default auto move key is `mouse button 4`.
 
+<img width="1280" height="720" alt="auto-move" src="https://github.com/user-attachments/assets/2b4d6bdd-7d02-4755-8974-5802ab34c5e7" />
+
 ## Install
 
 1) Download latest [release](https://github.com/FaithBeam/stalker-anomaly-auto-move/releases/latest)
