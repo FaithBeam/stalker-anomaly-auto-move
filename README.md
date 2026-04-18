@@ -6,6 +6,11 @@ Default auto move key is `mouse button 4`.
 
 Pressing the bound forward (default W) or backward (default S) keys will stop auto move.
 
+Mouse 4 is default bound to `freelook` which I bind to alt. So either rebind freelook or auto move to a different key.
+
+To rebind freelook:
+    - Settings > Control > Keybinds > Freelook
+
 ## Install
 
 1) Download latest [release](https://github.com/FaithBeam/stalker-anomaly-auto-move/releases/latest)
