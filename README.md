@@ -12,6 +12,7 @@ Pressing the bound forward (default W) or backward (default S) keys will stop au
 2) Open ModOrganizer
 3) Drag archive at end of list
 4) Click through prompts
+5) Enable Auto Move
 
 ## Rebind Key
 
